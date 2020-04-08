@@ -1,7 +1,4 @@
 body {
-    background: black url(../images/indexBackground.jpeg) fixed center;
-}
-
-h1 {
-    color: blue;
+    background: black url(../images/indexBackgroung.jpeg) fixed center;
+    padding: 10;
 }
