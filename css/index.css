@@ -10,9 +10,20 @@ h5 {
     justify-content: center;
     font-weight: bold;
 }
+
 /* h1 {
     color: #01CCC9;
     display: flex;
     justify-content: center;
     font-weight: bold;
 } */
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-weight: 550;
+}
+
+video {
+    border-radius: 20px;
+}
