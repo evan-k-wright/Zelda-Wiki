@@ -1,5 +1,6 @@
 body {
     width: 100vw;
     background: black url(../images/indexBackgroung.jpeg) fixed center;
-    padding: 10;
+    padding: 0;
+    margin: 0
 }
