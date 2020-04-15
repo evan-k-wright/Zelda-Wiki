@@ -3,16 +3,16 @@
 
 <head>
     <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
 
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
 
     <!--Custom CSS File-->
     <link rel="stylesheet" href="css/index.css" type="text/css">
 
     <!--Let browser know this website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
      <link rel="shortcut icon" href="images/triforce.png" type="image/x-icon">
 
@@ -23,8 +23,38 @@
     <h1 class="grey-text text-darken-4 center-align">Zelda Information Guide</h1>
     <h5 class="grey-text text-darken-4">Your ultimate guide to Zelda information! <br> Anything you want to know, just look here!</h5>
 
+    <h3>Zelda: Ocarina of Time</h3>
+    <video width="620" hieght="480" controls>
+        <source src="./videos/ocarina.mp4" type="video/mp4">
+    </video>
+
+
+    <section class="slider">
+        <ul class="slides">
+            <li>
+                <img src="images/OOC-1.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h2 class="blue-text">Zelda</h2>
+                    <h5 class="blue-text">Princess Of Hyrule</h5>
+                    <i class="material-icons black-text large">web</i></a>
+
+                </div>
+            </li>
+        </ul>
+    </section>
+
 <!-- Compiled and minified JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+<script src="https://cdnjs.cloudflare.com/        //M.AutoInit() is a great way to get most things activated, very easy!!
+        M.AutoInit();
+
+        //Init the slider image display
+        const slider = document.querySelector('.slider');
+        M.Slider.init(slider, {
+            indicators: false,
+            height: 500,
+            transition: 500,
+            interval: 2500
+        });ajax/libs/materialize/1.0.0/js/materialize.min.js">
 </script>
 </body>
 
